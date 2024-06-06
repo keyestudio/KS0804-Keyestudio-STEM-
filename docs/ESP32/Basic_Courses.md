@@ -4,23 +4,23 @@
 
 ![img](img/1.png)
 
-#### 1. Introduction
+1. Introduction
 
 This project is easy to conduct with an ESP32 Easy Coding Board, a USB type-C cable and a computer. The ESP32 Easy Coding Board RGB dot matrix will display a beating heart. It serves as a start for your entry to the programming world!
 
-#### 2. Components
+2. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 3. Connection
+3. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 4. Test Code
+4. Test Code
 
 Please check code in Project 1 file.
 
@@ -46,7 +46,7 @@ Initialize the RGB dot matrix.
 
 ![img](img/10.png)
 
-#### 5. Test Result
+5. Test Result
 
 After uploading test code to ESP32 Easy Coding Board and powering via USB cable, the RGB dot matrix alternately shows patterns of a small and a large heart.
 
@@ -58,23 +58,23 @@ After uploading test code to ESP32 Easy Coding Board and powering via USB cable,
 
 ![img](img/1.png)
 
-#### 1. Introduction
+1. Introduction
 
 In this project, we intend to control a certain RGB of the ESP32 Easy Coding Board to be on and off. 
 
-#### 2. Components
+2. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 3. Connection
+3. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 4. 5*5 RGB Dot Matrix
+4. 5*5 RGB Dot Matrix
 
 The RGB dot matrix has a total of 25 beads, and we mark them as number 0 to 24 from left to right and from top to bottom. 
 
@@ -82,7 +82,7 @@ The serial number is as follows:
 
 ![img](img/13.png)
 
-#### 5. Test Code
+5. Test Code
 
 **Find code blocks:**
 
@@ -108,7 +108,7 @@ Refresh all RGB:
 
 ![img](img/19.png)
 
-#### 6. Test Result
+6. Test Result
 
 The set RGB will light up once per second.
 
@@ -118,7 +118,7 @@ The set RGB will light up once per second.
 
 ![img](img/1.png)
 
-#### 1. Introduction
+1. Introduction
 
 Dot matrices are very commonplace in daily life. They have found wide applications in RGB advertisement screens, elevator floor display, bus stop announcement and so on.
 
@@ -126,19 +126,19 @@ The dot matrix of ESP32 Easy Coding Board contains 25 RGB in a grid. Previously,
 
 What’s more, we can also click ”show icon“ to choose the pattern we like to display. Last but not the least, we can design patterns by ourselves as well.
 
-#### 2. Components
+2. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 3. Connection
+3. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 4. Test Code
+4. Test Code
 
 **Find code blocks:**
 
@@ -158,7 +158,7 @@ Set the full color brightness and delay time.
 
 ![img](img/25.png)
 
-#### 5. Test Result
+5. Test Result
 
 After uploading test code, the dot matrix start to show arrows in many directions, and then it exhibits two light shows in full color with each for 5 seconds.
 
@@ -168,7 +168,7 @@ After uploading test code, the dot matrix start to show arrows in many direction
 
 ![img](img/26.png)
 
-#### 1. Introduction
+1. Introduction
 
 Buttons can be used to control circuits. In an integrated circuit with a button, the circuit is connected when the button is pressed and if you release the button, the circuit is open.
 
@@ -178,19 +178,19 @@ ESP32 Easy Coding Board boasts three buttons: two programmable buttons (marked w
 
 Let’s get started!
 
-#### 2. Components
+2. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 3. Connection
+3. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -210,7 +210,7 @@ Choose button A or B in the condition.
 
 ![img](img/30.png)
 
-#### 5. Test Result 1
+5. Test Result 1
 
 After uploading test code and powering on, the 5x5 dot matrix shows A if button A is pressed, and shows B if button B is pressed, and shows AB if button A and B are pressed together. When the touching area is touched, it shows T.
 
@@ -220,7 +220,7 @@ After uploading test code and powering on, the 5x5 dot matrix shows A if button 
 
 ![img](img/32-1.png)
 
-#### 6. Test Code 2
+6. Test Code 2
 
 Read the touching area analog values.
 
@@ -234,7 +234,7 @@ Read the touching area analog values.
 
 ![img](img/41.png)
 
-#### 7. Test Result 2
+7. Test Result 2
 
 After uploading test code and setting baud rate to 115200, when you touch this area, the value will reduce to about 10.
 
@@ -251,19 +251,19 @@ The board boasts an built-in passive buzzer, which is a device without an oscill
 3. **Applications:** Passive buzzers are widely used in various electronic devices to provide audio prompts or alerts, such as embedded systems, electronic products, alarm systems, etc.
 4. **Driving:** Due to its passiveness, they have relatively low requirements for external drive signals, so they usually only need to provide enough current and the appropriate frequency.
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code
+3. Test Code
 
 **Find code blocks:**
 
@@ -283,7 +283,7 @@ Integrated musics and songs:
 
 ![img](img/64.png)
 
-#### 4. Test Result 
+4. Test Result 
 
 Play do, re, mi, fa, sol, la, si, and a song.
 
@@ -297,19 +297,19 @@ Microphones can be divided into many types, including **Dynamic Microphone**, **
 
 In this project, we use a minimal capacitive microphone.
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code 1
+3. Test Code 1
 
 **Find code blocks:**
 
@@ -319,13 +319,13 @@ Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/158.png)
 
-#### 4. Test Result 1
+4. Test Result 1
 
 After uploading test code and setting baud rate to 115200, speak to the ESP32 Easy Coding Board or clap your hands or desks, and the analog value of sound will increase. The louder the sound is, the greater the value will be.
 
 ![img](img/159.png)
 
-#### 5. Test Code 2
+5. Test Code 2
 
 We represent the sound on RGB dot matrix, and as the sound gets louder, more RGB will light up.
 
@@ -345,7 +345,7 @@ RGB display:
 
 ![img](img/163.png)
 
-#### 6. Test Result 2
+6. Test Result 2
 
 Upload test code and power on, and the louder the sound is, the more the RGB will light up.
 
@@ -359,19 +359,19 @@ Upload test code and power on, and the louder the sound is, the more the RGB wil
 
 AHT11 temperature and humidity sensor is equipped on the board, which outputs digital signals. It uses special analog signal acquisition&conversion technology and temperature and humidity sensing technology to ensure that the sensor features good long-term stability and high reliability. The MCU on the ESP32 Easy Coding Board communicates with it via I2C.
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code
+3. Test Code
 
 **Find code blocks:**
 
@@ -385,7 +385,7 @@ Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/37.png)
 
-#### 4.  Test Result
+4.  Test Result
 
 After uploading test code, open the serial monitor and set baud rate, and the **temperature**, **humidity** and **Dewpoint** value will be printed.
 
@@ -458,19 +458,19 @@ For more details, please refer to the MPU6050 data sheet:
 
 [https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code
+3. Test Code
 
 **Find code blocks:**
 
@@ -494,7 +494,7 @@ This block is used to update the data each time it is fetched.
 
 ![img](img/48.png)
 
-#### 4. Test Result
+4. Test Result
 
 After uploading code and powering on, Put ESP32 Easy Coding Board flatwise on the desk, press the reset button to initialize MPU6050, and wait 2 or 3 seconds. 
 
@@ -519,19 +519,19 @@ Photoresistors measure light intensity and are commonly used to detect brightnes
 
 **Unit of brightness:** They usually measure light intensity in luminance units (such as Lux). Luminance represents the luminous flux per unit area.
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code
+3. Test Code
 
 **Find code blocks:**
 
@@ -543,7 +543,7 @@ Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/57.png)
 
-#### 4. Test Result
+4. Test Result
 
 Upload the test code and open the serial monitor. When the light intensity detected by the sensor changes, the sensor values will also change.
 
@@ -561,14 +561,14 @@ The SD card module is used in conjunction with the MCU on the ESP32 Easy Coding 
 - **Interface:** The SD card module usually connects to the ESP32 Easy Coding Board using the Serial Peripheral Interface (SPI) interface. It needs to be connected to the corresponding pin of the ESP32 Easy Coding Board, For example, MOSI (Master Out Slave In), MISO (Master In Slave Out), SCK (Serial Clock), and CS (Chip Select).
 - **SD card type:** SD card modules are generally compatible with various types, including standard SD cards, SDHC cards (High Capacity), and SDXC cards (eXtended Capacity).
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1           | ![img](img/2.png)  |
 | ----------------------------------- | ------------------ |
 | USB type C cable *1                 | ![img](img/3.png)  |
 | SD card *1(not included in the kit) | ![img](img/65.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
@@ -580,7 +580,7 @@ Insert the SD card into the slot.
 
 ![img](img/143.png)
 
-#### 3. Test Code
+3. Test Code
 
 **Find code blocks:**
 
@@ -657,19 +657,19 @@ Resistive current sensor is commonly used to monitor the current value by measur
 
 Resistive current sensors are widely applied to power system monitoring, power consumption measurement of electronic devices, electric vehicle current monitoring and so on.
 
-#### 1. Components
+1. Components
 
 | ESP32 Easy Coding Board*1 | ![img](img/2.png) |
 | ------------------------- | ----------------- |
 | USB type C cable*1        | ![img](img/3.png) |
 
-#### 2. Connection
+2. Connection
 
 Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/4.png)
 
-#### 3. Test Code 1
+3. Test Code 1
 
 **Read current value:**
 
@@ -679,13 +679,13 @@ Connect the ESP32 Easy Coding Board to your computer via USB cable.
 
 ![img](img/167.png)
 
-#### 4. Test Result 1
+4. Test Result 1
 
 After uploading test code, open the serial monitor and you will see the current value is 0. Because many modules are not working on the board, so the current is close to 0.
 
 ![img](img/168.png)
 
-#### 5. Test Code 2
+5. Test Code 2
 
 Enable RGB dot matrix and then measure the current value.
 
@@ -709,13 +709,13 @@ Last measure 25 RGB beads.
 
 ![img](img/174.png)
 
-#### 6. Test Result 2
+6. Test Result 2
 
 Upload test code and you will find that the more the beads are, the larger the current will be.
 
 ![img](img/173.png)
 
-#### 7. Test Code 3
+7. Test Code 3
 
 The conversion of current to power: power (P) equals current (I) times voltage (V).
 
@@ -759,7 +759,7 @@ Variable **I** multiplies by 3.3 is the power of the ESP32 Easy Coding Board (th
 
 ![img](img/183.png)
 
-#### 8. Test Result 3
+8. Test Result 3
 
 Upload code and open serial monitor to set baud rate. The more the beads are, the greater the current value and power will be.
 
@@ -790,7 +790,7 @@ Espressif Official: [https://www.espressif.com.cn/en/home](https://www.espressif
 
 ------
 
-#### WiFi Web Page
+WiFi Web Page
 
 Click the extension icon to add the library.
 

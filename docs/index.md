@@ -18,11 +18,11 @@ Welcome to check out more contents from our official website:
 
 **Obtain Information and After-sales Service**
 
-1. Download address:
+1. Code Download:
 
-   [Microbit](Microbit.zip)
+   [Microbit](Microbit/MakeCode/code.zip)
 
-   [ESP32](ESP32.zip)
+   [ESP32](ESP32/Code/code.zip)
 
 2. If something is found missing or broken, or you have some difficulty learning the kit, please feel free to contact us. Welcome to send email to us: [service@keyestudio.com](http://m.138.gz.cn/webadmin/~CAmsnCrrNXhTAySKCerrIfWjjZuuWVfI/~/usr/mod_edituser.jsp?;uid=service@keyestudio.com;;clearCache=)
 
@@ -101,7 +101,7 @@ With this kit, you can master basic sensor knowledge and have an excellent oppor
 
 ## Assembly
 
-### step 1
+**step 1**
 
 ![img](img/an1.png)
 
@@ -117,7 +117,7 @@ With this kit, you can master basic sensor knowledge and have an excellent oppor
 
 ![img](img/an7.png)
 
-### step 2
+**step 2**
 
 ![img](img/an8.png)
 
@@ -131,7 +131,7 @@ With this kit, you can master basic sensor knowledge and have an excellent oppor
 
 ![img](img/an13.png)
 
-### step 3
+**step 3**
 
 ![img](img/an14.png)
 
@@ -145,7 +145,7 @@ With this kit, you can master basic sensor knowledge and have an excellent oppor
 
 ![img](img/an19.png)
 
-### step 4
+**step 4**
 
 **When wiring up, please note the colors of wires: S to yellow; V to red; G to black.**
 
@@ -181,7 +181,7 @@ Install batteries (prepare four AAA batteries in advance by yourself)
 
 ![img](img/an30.png)
 
-### step 5
+**step 5**
 
 ![img](img/an31.png)
 
@@ -219,7 +219,7 @@ Install batteries (prepare four AAA batteries in advance by yourself)
 
 ![img](img/an48.png)
 
-### step 6
+**step 6**
 
 Follow the tutorial to unfold the square paper in the kit
 
@@ -251,7 +251,7 @@ Follow the tutorial to unfold the square paper in the kit
 
 ![img](img/an52-6.png)
 
-### step 7
+**step 7**
 
 ![img](img/an56-1.png)
 
@@ -290,11 +290,11 @@ Follow the tutorial to unfold the square paper in the kit
 
 <span style='color:red'>Download tutorials and codes: </span>
 
-[Microbit](Microbit.zip)
+[Microbit](Microbit/MakeCode/code.zip)
 
-[ESP32](ESP32.zip)
+[ESP32](ESP32/Code/code.zip)
 
-### 1. Basic Projects
+**1.Basic Projects**
 
 Basic projects include development board introduction, programming methods, the ways of burning codes and the usage of sensors and modules. You will have a clear understanding on the board functions.
 
@@ -304,15 +304,15 @@ Basic projects include development board introduction, programming methods, the 
 
 [Basic Courses: ESP32 Easy Coding Board](ESP32/Basic_Courses.md)
 
-### 2. Colorful Lamp Projects
+**2.Colorful Lamp Projects**
 
 Do operations according to the tutorials of the two development boards.
 
-#### 1. Microbit Tutorial
+**2.1.Microbit Tutorial**
 
 [Micro:bit](Microbit/Microbit.md)
 
-#### 2. ESP32 Easy Coding Board Tutorial
+**2.2 ESP32 Easy Coding Board Tutorial**
 
 [ESP32](ESP32/ESP32.md)
 

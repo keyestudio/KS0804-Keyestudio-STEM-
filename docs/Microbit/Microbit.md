@@ -6,28 +6,28 @@ Code download:  [Code](./MakeCode/code.zip)
 
 ### 1.1 RGB Module
 
-#### 1.1.1 Description
+1.1.1 Description
 
 6812 2x2 full-color RGB module can be regarded as an intelligent external controlled LED light source, which integrates a control circuit and a light emitting circuit. Each pixel on it can be driven individually. Because it adopts single-line communication, this module can be controlled by only one signal pin.
 
 ![](img/cou1.png)
 
-#### 1.1.2 Schematic Diagram
+1.1.2 Schematic Diagram
 
 ![](img/cou2.png)
 
-#### 1.1.3 Parameters
+1.1.3 Parameters
 
 - Operating voltage: DC3.3 or 5V
 - Current: ≤200mA（MAX）
 - Grey levels: 256 levels
 - Emitting angle: 180°
 
-#### 1.1.4 Wiring Diagram
+1.1.4 Wiring Diagram
 
 ![](img/cou3.png)
 
-#### 1.1.5 Test Code 1
+1.1.5 Test Code 1
 
 Add an Extension.
 
@@ -55,7 +55,7 @@ Choose pin P2 and 4 leds.
 
 
 
-#### 1.1.6 Light Effect 1
+1.1.6 Light Effect 1
 
 Upload the code to the board.
 
@@ -65,7 +65,7 @@ The lamp will light up in the color you set.
 
 ![](img/t7.png)
 
-#### 1.1.7 Test Code 2
+1.1.7 Test Code 2
 
 1. Initialize RGB module.
 
@@ -97,7 +97,7 @@ The lamp will light up in the color you set.
 
 ![](img/t16.png)
 
-#### 1.1.8 Light Effect 2
+1.1.8 Light Effect 2
 
 Upload the code to the board.
 
@@ -117,7 +117,7 @@ There are two buttons (A and B) and a touch logo on the board. In this experimen
 
 ![](img/k1-1.png)
 
-#### 1.2.1 Test Code 1
+1.2.1 Test Code 1
 
 Initialize RGB module.
 
@@ -167,7 +167,7 @@ Set the colors of RGB module.
 
 ![](img/t31.png)
 
-#### 1.2.2  Light Effect 1
+1.2.2  Light Effect 1
 
 Upload the code to the board.
 
@@ -177,7 +177,7 @@ Press button A and B to change the colors of the lamp.
 
 ![](img/t32.png)
 
-#### 1.2.3 Test Code 2
+1.2.3 Test Code 2
 
 Based on last experiment, we add codes to adjust the brightness of the RGB module.
 
@@ -211,7 +211,7 @@ Add blocks to set the brightness.
 
 ![](img/t41.png)
 
-#### 1.2.4  Light Effect 2
+1.2.4  Light Effect 2
 
 Upload the code to the board.
 
@@ -227,7 +227,7 @@ Press button A or B to change the color of the lamp; touch the logo to adjust it
 
 ### 1.3. Remote Control Lamp
 
-#### 1.3.1 Description
+1.3.1 Description
 
 Infrared remote control is one of the most widely used means of communication and remote control. This IR receiver module features small size, low power consumption, strong function and low cost, so it is adopted in many toys, such as the recorders, audio devices and air conditioners.
 
@@ -237,7 +237,7 @@ The receiving circuit includes an infrared receiving diode and a triode/a silico
 
 ![](img/cou47.png)
 
-#### 1.3.2 Parameters
+1.3.2 Parameters
 
 Operating voltage: DC 3.3 ~ 5V
 
@@ -255,11 +255,11 @@ Operating temperature: -10°C ~ +50°C
 
 
 
-#### 1.3.3 Wiring Diagram
+1.3.3 Wiring Diagram
 
 ![](img/cou3.png)
 
-#### 1.3.4 Test Code 1
+1.3.4 Test Code 1
 
 Import IR module library.
 
@@ -305,7 +305,7 @@ Print values on USB serial monitor.
 
 ![](img/t56.png)
 
-#### 1.3.5 Test Result 1
+1.3.5 Test Result 1
 
 Upload the code to the board.
 
@@ -323,7 +323,7 @@ Corresponding button codes:
 
 
 
-#### 1.3.6 Test Code 2
+1.3.6 Test Code 2
 
 We extend some codes on the basis of the previous program.
 
@@ -408,7 +408,7 @@ Put these two functions in "forever".
 ![](img/t79.png)
 
 
-#### 1.3.7  Light Effect 2
+1.3.7  Light Effect 2
 
 Upload the code to the board.
 
@@ -434,7 +434,7 @@ In this experiment, we build a smart lamp. When a human makes a sound and it is 
 
 ------
 
-#### 1.4.1 Test Code 1
+1.4.1 Test Code 1
 
 Add two sound input blocks: one is load and another is quiet.
 
@@ -460,7 +460,7 @@ Set thresholds of the two inputs.
 
 ![](img/t89.png)
 
-#### 1.4.2 Light Effect 1
+1.4.2 Light Effect 1
 
 Upload the code to the board.
 
@@ -472,7 +472,7 @@ Clap your hands to make some sounds. When the board detects it, The dot matrix w
 
 ![](img/t91.png)
 
-#### 1.4.3 Test Code 2
+1.4.3 Test Code 2
 
 We add a duration of the lighting time on the basis of the previous experiment. When we make a sound, the lamp lights up for 10s. 10 seconds later, the lamp will turn off if no sound is detected.
 
@@ -511,7 +511,7 @@ At last, add a block to turn off the lamp.
 ![](img/t99.png)
 
 
-#### 1.4.4  Light Effect 2
+1.4.4  Light Effect 2
 
 Upload the code to the board. When we make a sound, the lamp lights up for 10s. 10 seconds later, the lamp will turn off.	
 
@@ -523,7 +523,7 @@ Upload the code to the board. When we make a sound, the lamp lights up for 10s. 
 
 ### 2.1  Code fails to download to Micro:bit
 
-#### Problem
+**Problem**
 
 Recently, many users encounter the issue that Micro:bit board doesn’t respond when download code.
 
@@ -533,7 +533,7 @@ Plug in Micro:bit board, the “MAINTENANCE” drive appears, which means the pr
 
 ![img](img/k190.png)
 
-#### Solution
+**Solution**
 
 1. Download the **hex file** from this page to your computer.
 
@@ -544,7 +544,7 @@ Plug in Micro:bit board, the “MAINTENANCE” drive appears, which means the pr
 
 ![img](img/k191.png)
 
-#### Avoid to Enter “MAINTENANCE”
+**Avoid to Enter “MAINTENANCE”**
 
 1. Make sure the Reset button is **not** pressed when plugging the board by USB cable.
 
@@ -562,7 +562,7 @@ Plug in Micro:bit board, the “MAINTENANCE” drive appears, which means the pr
 
 Having trouble pairing the Micro: bit with WebUSB (/ device/usb/webusb)?
 
-#### Step 1: Check cable
+**Step 1: Check cable**
 
 Make sure that your micro:bit is connected to your computer with a micro USB cable. You should see a **MICROBIT** drive appear in Windows Explorer when it’s connected.
 
@@ -582,7 +582,7 @@ If you can’t:
 
 
 
-#### Step 2: Check firmware version
+**Step 2: Check firmware version**
 
 It’s possible that the firmware version on the micro:bit needs an update. Let’s check:
 
@@ -607,7 +607,7 @@ If the version is **0249**, **0250** or higher, you have the right firmware, jus
 
 
 
-#### Step 3: Update firmware
+**Step 3: Update firmware**
 
 1. Put your micro:bit into **MAINTENANCE Mode**. 
 
@@ -626,7 +626,7 @@ If you want to know more about connecting the board, MAINTENANCE Mode, and upgra
 
 
 
-#### Step 4: Check version of Browser
+**Step 4: Check version of Browser**
 
 WebUSB may require you to update your browser. 
 
@@ -636,7 +636,7 @@ Check that your browser version matches one of these: **Android**, **Chrome OS**
 
 
 
-#### Step 5: Pair device
+**Step 5: Pair device**
 
 Once you’ve updated the firmware, open the **Chrome Browser**, go to the editor and click on **Pair Device** in settings. 
 

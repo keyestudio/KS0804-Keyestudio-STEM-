@@ -4,32 +4,32 @@
 
 Code download:  [Code](Code/code.zip)
 
-### 1.1 RGB Module
+1.1 RGB Module
 
-#### 1.1.1 Description
+1.1.1 Description
 
 6812 2x2 full-color RGB module can be regarded as an intelligent external controlled LED light source, which integrates a control circuit and a light emitting circuit. Each pixel on it can be driven individually. Because it adopts single-line communication, this module can be controlled by only one signal pin.
 
 ![](img/cou1.png)
 
-#### 1.1.2 Schematic Diagram
+1.1.2 Schematic Diagram
 
 ![](img/cou2.png)
 
-#### 1.1.3 Parameters
+1.1.3 Parameters
 
 - Operating voltage: DC3.3 or 5V
 - Current: ≤200mA（MAX）
 - Grey levels: 256 levels
 - Emitting angle: 180°
 
-#### 1.1.4 Wiring Diagram
+1.1.4 Wiring Diagram
 
 <span style="color:red">The RGB drive method of the main board is the same as that of this module. 5x5 RGB dot matrix on the board is connected to pin io13, while the RGB module is wired to io32. If you require the 5X5 dot matrix to display lights at the same time as the RGB module, connect the module to the pin io13 as well. </span>
 
 ![](img/cou3.png)
 
-#### 1.1.5 Test Code 1
+1.1.5 Test Code 1
 
 Initialize RGB module.
 
@@ -57,7 +57,7 @@ Set a color.
 
 
 
-#### 1.1.6 Light Effect 1
+1.1.6 Light Effect 1
 
 Upload the code to the board.
 
@@ -67,7 +67,7 @@ The lamp will light up in the color you set.
 
 ![](img/cou10.png)
 
-#### 1.1.7 Test Code 2
+1.1.7 Test Code 2
 
 Initialize RGB module.
 
@@ -83,7 +83,7 @@ Set module pin, brightness and lighting duration.
 
 ![](img/cou14.png)
 
-#### 1.1.8 Light Effect 2
+1.1.8 Light Effect 2
 
 Upload the code to the board.
 
@@ -103,7 +103,7 @@ There are two buttons (A and B) and a touch logo on the board. In this experimen
 
 ![](img/26.png)
 
-#### 1.2.1 Test Code 1
+1.2.1 Test Code 1
 
 Define a variable to store the button value.
 
@@ -147,7 +147,7 @@ Put the button function in "forever", print the button value.
 
 ![](img/cou28.png)
 
-#### 1.2.2 Test Result 1
+1.2.2 Test Result 1
 
 Upload the code to the board.
 
@@ -159,7 +159,7 @@ Open the serial monitor and set baud rate, and the button value will be printed 
 
 
 
-#### 1.2.3 Test Code 2
+1.2.3 Test Code 2
 
 Based on last experiment, we add RGB module to form light show.
 
@@ -223,7 +223,7 @@ Put the three functions in "forever".
 
 ![](img/cou45.png)
 
-#### 1.2.4  Light Effect 2
+1.2.4  Light Effect 2
 
 Upload the code to the board.
 
@@ -239,7 +239,7 @@ Press button A or B to change the color of the lamp; touch the logo to adjust it
 
 ### 1.3. Remote Control Lamp
 
-#### 1.3.1 Description
+1.3.1 Description
 
 Infrared remote control is one of the most widely used means of communication and remote control. This IR receiver module features small size, low power consumption, strong function and low cost, so it is adopted in many toys, such as the recorders, audio devices and air conditioners.
 
@@ -249,7 +249,7 @@ The receiving circuit includes an infrared receiving diode and a triode/a silico
 
 ![](img/cou47.png)
 
-#### 1.3.2 Parameters
+1.3.2 Parameters
 
 Operating voltage: DC 3.3 ~ 5V
 
@@ -267,11 +267,11 @@ Operating temperature: -10°C ~ +50°C
 
 
 
-#### 1.3.3 Wiring Diagram
+1.3.3 Wiring Diagram
 
 ![](img/cou3.png)
 
-#### 1.3.4 Test Code 1
+1.3.4 Test Code 1
 
 Import IR module library.
 
@@ -305,7 +305,7 @@ Assign the received infrared value to variable “item“,  and print it on the 
 
 ![](img/cou55.png)
 
-#### 1.3.5 Test Result 1
+1.3.5 Test Result 1
 
 Upload the code to the board.
 
@@ -321,7 +321,7 @@ Corresponding button codes:
 
 
 
-#### 1.3.6 Test Code 2
+1.3.6 Test Code 2
 
 We extend some codes on the basis of the previous program.
 
@@ -381,7 +381,7 @@ lum_value > 255: set it to 255
 
 
 
-#### 1.3.7  Light Effect 2
+1.3.7  Light Effect 2
 
 Upload the code to the board.
 
@@ -407,7 +407,7 @@ In this experiment, we build a smart lamp. When a human makes a sound and it is 
 
 ------
 
-#### 1.4.1 Test Code 1
+1.4.1 Test Code 1
 
 Initialize the serial port.
 
@@ -419,7 +419,7 @@ Print the microphone value.
 
 ![](img/cou77.png)
 
-#### 1.4.2 Test Result 1
+1.4.2 Test Result 1
 
 Upload the code to the board.
 
@@ -431,7 +431,7 @@ Open serial monitor and set baud rate. Clap your hand to make sound, and the mon
 
 
 
-#### 1.4.3 Test Code 2
+1.4.3 Test Code 2
 
 We add a duration of the lighting time on the basis of the previous experiment. When we make a sound, the lamp lights up for 10s. 10 seconds later, the lamp will turn off if no sound is detected.
 
@@ -443,7 +443,7 @@ We add a duration of the lighting time on the basis of the previous experiment. 
 
 ![](img/cou81.png)
 
-#### 1.4.4  Light Effect 2
+1.4.4  Light Effect 2
 
 Upload the code to the board. When we make a sound, the lamp lights up for 10s. 10 seconds later, the lamp will turn off if no sound is detected.
 
