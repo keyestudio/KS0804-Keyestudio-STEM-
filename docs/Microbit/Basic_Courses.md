@@ -116,7 +116,7 @@ The following instructions are applied for Windows system but can also serve as 
 
 This chapter describes how to write program and load the program to the Micro: Bit mainboard. Visit official website for more details: <https://microbit.org/guide/quick/>
 
-#### 3.1.1 Step 1: Connect to Micro:bit
+3.1.1 Step 1: Connect to Micro:bit
 
 Connect the board to computer via USB cable. 
 
@@ -138,7 +138,7 @@ Then Micro: bit main board will appear on your computer as a driver named “MIC
 
 
 
-#### 3.1.2 Step 2: Write programs
+3.1.2 Step 2: Write programs
 
 Online version of Makecode: <https://makecode.microbit.org/>
 
@@ -180,7 +180,7 @@ Click the arrow to switch to “Python” language.
 
 
 
-#### 3.1.3 Step 3: Download code
+3.1.3 Step 3: Download code
 
 If your computer is Windows 10 and you have downloaded the APP MakeCode, what you will only have to do is to download the program to your Micro: Bit board.
 
@@ -203,7 +203,7 @@ Or, you may directly drag the “hex” file in **MICROBIT**.
 
 During the process of copying the hex file to the Micro: bit, the yellow LED on the back of the board flashes. When the duplication is completed, the LED will stop flashing and remain on.
 
-#### 3.1.4 Step 4: Run program
+3.1.4 Step 4: Run program
 
 After the program is uploaded to the Micro: bit, you can power it via USB cable or an external power. Then the 5 x 5 LED dot matrix displays a heartbeat pattern.
 
@@ -224,7 +224,7 @@ After the program is uploaded to the Micro: bit, you can power it via USB cable 
 
 ------
 
-#### 3.1.5 Step 5: Other programming languages
+3.1.5 Step 5: Other programming languages
 
 This chapter has described how to use the Micro:bit main board.
 
@@ -320,7 +320,7 @@ After connection, click ![img](img/m32.png) and it will change into ![img](img/m
 
 ### 3.4 Makecode Extension Library
 
-#### 3.4.1 Add library
+3.4.1 Add library
 
 Please follow the steps to add extension files:
 
@@ -354,7 +354,7 @@ Back to the interface and you can see a **Servos** library.
 
 ------
 
-#### 3.4.2 Update/Delete library
+3.4.2 Update/Delete library
 
 Click **Js JavaScript** to switch to text code.
 
@@ -396,7 +396,7 @@ Click **Blocks** to return to graphical programming.
 
 Download: https://fs.keyestudio.com/KS0801
 
-#### 3.5.1 Import code
+3.5.1 Import code
 
 We provide hexadecimal code files (project files) for each project. The file contains all the contents of the project and can be imported directly, or you can manually build the code blocks. 
 
@@ -440,7 +440,7 @@ Wait for loading.
 
 
 
-#### 3.5.2 Install CoolTerm
+3.5.2 Install CoolTerm
 
 If your computer is Win7/8, the pairing cannot be done via Google Chrome. Therefore, digital signal or analog signal of sensors and modules cannot be shown on the serial simulator. So what can we do? CoolTerm software is a nice choice to read the serial data.
 
@@ -481,21 +481,24 @@ CoolTerm download: <https://freeware.the-meiers.org/>
 
 ![img](img/k1.png)
 
-#### 1. Introduction
+1. Introduction
+
 This project is easy to conduct with a micro:bit main board, a Micro USB cable and a computer. The micro:bit LED dot matrix will display a beating heart. It serves as a start for your entry to the programming world!
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code
+4. Test Code
+
 Please check code in Project 1 file.
 
 ![img](img/k2.png)
@@ -526,7 +529,7 @@ Pull down to click “Python” to see Python code:
 
 
 
-#### 5. Test Result
+5. Test Result
 
 After uploading test code to micro:bit main board and keeping the connection with the computer to power the main board, the LED dot matrix shows pattern “❤” and “![img](img/k8.png)”,  alternately.
 
@@ -540,29 +543,31 @@ After uploading test code to micro:bit main board and keeping the connection wit
 
 ![img](img/k1.png)
 
-#### 1. Introduction
+1. Introduction
 
 In this project, we intend to control a certain LED of the micro:bit main board to light up.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Knowledge
+4. Knowledge
+
 The LED dot matrix consists of 25 LEDs arranged in a 5 by 5 square. 
 
 In order to locate these LEDs quickly, as the figure shown below, we can regarded this matrix as a coordinate system by marking 0~4 from top to bottom and from left to right. Therefore, the LED sat in the second of the first line is (1,0) and the LED positioned in the fifth of the fourth column is (3,4), and others likewise.
 
 ![img](img/k9.png)
 
-#### 5. Test Code
+5. Test Code
 
 **Find code blocks:**
 
@@ -576,7 +581,7 @@ In order to locate these LEDs quickly, as the figure shown below, we can regarde
 
 ![img](img/k13.png)
 
-#### 6. Test Result
+6. Test Result
 
 After uploading test code to micro:bit main board and powering the main board via the USB cable, the LED in (1,0) lights up for 1s and the one in (3,4) shines for 1s and this sequence will repeat.
 
@@ -587,7 +592,7 @@ After uploading test code to micro:bit main board and powering the main board vi
 
 ![img](img/k1.png)
 
-#### 1. Introduction
+1. Introduction
 
 Dot matrices are very commonplace in daily life. They have found wide applications in LED advertisement screens, elevator floor display, bus stop announcement and so on.
 
@@ -595,18 +600,19 @@ The LED dot matrix of Micro: Bit main board contains 25 LEDs in a grid. Previous
 
 What’s more, we can also click ”show icon“ to choose the pattern we like to display. Last but not the least, we can design patterns by ourselves as well.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code
+4. Test Code
 
 **Find code blocks:**
 
@@ -616,7 +622,8 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k15.png)
 
-#### 5. Test Result
+5. Test Result
+
 After uploading test code to micro:bit main board and powering the main board via the USB cable, we find that the 5*5 dot matrix start to show numbers 1, 2, 3, 4 and 5, and then it alternatively shows ![img](img/k16.png), “Hello!”, ![img](img/k17.png), ![img](img/k18.png), ![img](img/k19.png), ![img](img/k20.png) and ![img](img/k21.png)!
 
 
@@ -626,26 +633,27 @@ After uploading test code to micro:bit main board and powering the main board vi
 
 ![img](img/k1-1.png)
 
-#### 1. Introduction
+1. Introduction
+
 Buttons can be used to control circuits. In an integrated circuit with a button, the circuit is connected when the button is pressed and if you release the button, the circuit is open.
 
 Micro: Bit main board boasts three buttons: two programmable buttons (marked with A and B), and a reset button at back. By pressing the two programmable buttons, three different signals can be input. We can press button A or B or both so that the LED dot matrix shows A, B and AB respectively. 
 
 Let’s get started!
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
 
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -657,12 +665,11 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k24.png)
 
-#### 5. Test Result 1
+5. Test Result 1
 
 After uploading test code and powering on, the 5*5 LED dot matrix shows A if button A is pressed and then released, B if button B pressed and released, and AB if button A and B pressed together and then released.
 
-
-#### 6. Test Code 2
+6. Test Code 2
 
 **Find code blocks:**
 
@@ -692,7 +699,8 @@ After uploading test code and powering on, the 5*5 LED dot matrix shows A if but
 
 
 
-#### 7. Test Result 2
+7. Test Result 2
+
 After uploading test code and powering on, when the button A is pressed, the LEDs in red increase; when the button B is pressed, the LEDs in red reduce.
 
 
@@ -702,23 +710,25 @@ After uploading test code and powering on, when the button A is pressed, the LED
 
 ![img](img/k31.png)
 
-#### 1. Introduction
+1. Introduction
+
 The Micro:bit main board is actually not equipped with a temperature sensor, but uses nNFR52833 chip for temperature detection. Therefore, the detected value is much closer to the temperature of the processor, so there maybe deviation from the ambient value. 
 
 Its detection range is -40 ~ 105℃.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -738,7 +748,8 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k35.png)
 
-#### 5. Test Result 1
+5. Test Result 1
+
 After uploading test code 1 to micro:bit main board, powering the main board via the USB cable, and click “**Show console Device**”, the temperature value shows in the serial monitor as shown below.
 
 
@@ -762,7 +773,7 @@ The CoolTerm serial monitor shows the change of temperature in the current envir
 
 ![img](img/k39.png)
 
-#### 6. Test Code 2
+6. Test Code 2
 
 **Find code blocks:**
 
@@ -786,7 +797,7 @@ The CoolTerm serial monitor shows the change of temperature in the current envir
 
 ![img](img/k45.png)
 
-#### 7. Test Result 2
+7. Test Result 2
 
 After uploading the code 2 to the board, when the ambient temperature is less than 35℃, the 5*5 LED dot matrix shows ![img](img/k46.png). You may cover the sensor on the board to make the temperature equal to or become greater than 35℃, and then ![img](img/k47.png) will appear.
 
@@ -797,7 +808,7 @@ After uploading the code 2 to the board, when the ambient temperature is less th
 
 ![img](img/k48.png)
 
-#### 1. Introduction
+1. Introduction
 
 This project aims to explain the use of the Micro: bit geomagnetic sensor, which can not only detect the strength of the geomagnetic field, but also be used as a compass to find bearings. It is also an important part of the Attitude and Heading Reference System (AHRS). 
 
@@ -807,18 +818,19 @@ In this experiment, the compass will be introduced first, and then the original 
 
 **Attention: this geomagnetic sensor built in the board can help us determine bearings by showing readings in the value from 0 to 360. And we need to calibrate it for the first by rotating. Please note that metal materials around may attenuate the accuracy of the reading and calibration.**
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -842,15 +854,15 @@ Connect the board to your computer via micro USB cable.
 
 Note: it is imperative to calibrate the Micro:bit board because different geomagnetic fields exist in different places. And the board requires a calibration for the first using time.
 
-#### 5. Test Result 1
+5. Test Result 1
+
 After uploading code and powering on, press the button A and the board need to be calibrate when you see LED dot matrix shows “TILT TO FILL SCREEN”. Rotate the board until all 25 red LEDs are on as shown below.
 
 ![img](img/k53.png)
 
 After completing calibration, a smile ![img](img/k54.png) will appear. Press button A, and the detected magnetometer value will show. And the direction north, east, south and west correspond to 0°, 90°, 180° and 270° respectively.
 
-
-#### 6. Test Code 2
+6. Test Code 2
 
 ![img](img/k55.png)
 
@@ -892,7 +904,8 @@ For the above picture, the arrow pointing to the upper right when the value rang
 
  ![img](img/k64.png)
 
-#### 7. Test Result 2
+7. Test Result 2
+
 After uploading code and calibrating, tilt micro:bit board and the LED dot matrix displays the direction signs. 
 
 
@@ -903,25 +916,27 @@ After uploading code and calibrating, tilt micro:bit board and the LED dot matri
 
 ![img](img/k65.png)
 
-#### 1. Introduction
+1. Introduction
+
 The micro:bit board boasts a built-in LSM303AGR acceleration sensor (accelerometer) which includes standard, fast, plus and high-speed mode (100 kHz, 400 kHz, 1 MHz and 3.4 MHz) of I2C serial bus interface and SPI serial standard interface for external communication, with resolution of 8/10/12 bits and range of ±2g, ±4g, or ±8g.
 
 When the micro:bit board is at rest or in uniform motion, the accelerometer only detects the acceleration of gravity. If the board is slightly swung, the detected acceleration is much less than the that of gravity, but the difference can be ignored. Therefore, we mainly detect the change of gravitational acceleration on the x, y, and z axes.
 
 In this project, we will introduce how to measure the position of the board with the accelerometer. And then we may have a look at the original three-axis value output by the accelerometer.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -943,7 +958,8 @@ Connect the board to your computer via micro USB cable.
 
 ------
 
-#### 5. Test Result 1
+5. Test Result 1
+
 After uploading code and powering on, if we shake the Micro:Bit board(any direction), the LED dot matrix displays the digit “1”.
 
 
@@ -983,7 +999,7 @@ When the board falls down to the floor (a free fall), the LED dot matrix shows t
 
 If you’d like to try this function, you can also set the acceleration to 3g, 6g or 8g. But still ,we do not recommend.
 
-#### 6. Test Code 2
+6. Test Code 2
 
 **Find code blocks:**
 
@@ -1003,7 +1019,8 @@ If you’d like to try this function, you can also set the acceleration to 3g, 6
 
 ![img](img/k78.png)
 
-#### 7. Test Result 2
+7. Test Result 2
+
 Upload test code to micro:bit main board, power the main board via the USB cable, and click “Show console Device”.
 
 
@@ -1027,22 +1044,23 @@ Open CoolTerm and click **Options** to select **SerialPort**, and set COM port a
 
 ![img](img/k83.png)
 
-#### 1. Introduction
+1. Introduction
 
 In this experiment, we will use the micro:bit board to detect light intensity. Since the micro:bit board does not contains its own photoresistor, the LED dot matrix will shoulder this job. The light signal will convert into input, and the voltage decay time is sampled so that the detected light intensity is a relative value. 
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code
+4. Test Code
 
 **Find code blocks:**
 
@@ -1066,7 +1084,8 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k88.png)
 
-#### 5. Test Result
+5. Test Result
+
 Upload the test code to micro:bit main board, power the board via the USB cable and click “Show console Device”. 
 
 
@@ -1090,23 +1109,25 @@ Open CoolTerm and click **Options** to select **SerialPort**, and set COM port a
 
 ![img](img/k92.png)
 
-#### 1. Introduction
+1. Introduction
+
 Micro: Bit board boasts an built-in speaker, which makes sound to the programs easier. It is also able to make sound such as utter giggles, greetings and yawning as well as all kinds of tones, like playing the song *Ode to Joy*.
 
 You can also turn off the built-in speaker to enjoy the beautiful music via headphones connected to GND and P0. In MakeCode, you need to turn off the speaker by "Turn off built-in speakers" block.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -1126,11 +1147,11 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k96.png)
 
-#### 5. Test Result 1
+5. Test Result 1
+
 After uploading code and powering on, the speaker utters sound and the LED dot matrix shows the logo of music.
 
-
-#### 6. Test Code 2
+6. Test Code 2
 
 **Find code blocks:**
 
@@ -1172,22 +1193,23 @@ For more information about musical notations: <https://en.wikipedia.org/wiki/Num
 
 ![img](img/k107.png)
 
-#### 1. Introduction
+1. Introduction
 
 The Micro: Bit main board is equipped with a golden touch-sensitive logo, which can act as an extra button. This capacitive touch sensor senses small changes in the electric field when it is pressed or touched.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code
+4. Test Code
 
 **Find code blocks:**
 
@@ -1219,7 +1241,7 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k114.png)
 
-#### 5. Test Result
+5. Test Result
 
 After uploading the code and powering on, the LED dot matrix exhibits the heart pattern “❤” when the logo is pressed or touched, and it displays digit when the logo is released. The longer it is pressed, the bigger the number is when it is released.
 
@@ -1230,21 +1252,23 @@ After uploading the code and powering on, the LED dot matrix exhibits the heart 
 
 ![img](img/k115.png)
 
-#### 1. Introduction
+1. Introduction
+
 The Micro:bit mainboard is built with a microphone which can test the volume of ambient environment. When you clap, the microphone LED indicator turns on. So, you can make a disco lighting changing with music. The microphone is placed on the opposite side, and an LED indicator is next to the hole that lets sound pass. When the board detects sound, the LED indicator lights up.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code 1
+4. Test Code 1
 
 **Find code blocks:**
 
@@ -1260,11 +1284,11 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k118.png)
 
-#### 5. Test Result 1
+5. Test Result 1
+
 After uploading test code to micro:bit main board and powering the board via the USB cable, the LED dot matrix displays “❤” when you clap, and “![](img/k46.png)” appears when it is quiet around.
 
-
-#### 6. Test Code 2
+6. Test Code 2
 
 **Find code blocks:**
 
@@ -1294,7 +1318,8 @@ After uploading test code to micro:bit main board and powering the board via the
 
 ![img](img/k126.png)
 
-#### 7. Test Result 2
+7. Test Result 2
+
 Upload test code and power on and click “Show console Device” as shown below: 
 
 
@@ -1310,24 +1335,25 @@ When the button A is pressed, the LED dot matrix displays the value of the bigge
 
 ### Project 12: Play Music
 
-#### 1. Introduction
+1. Introduction
 
 In the previous projects, we have learned about the touch-sensitive logo and the speaker respectively.
 
 In the project, we will combine these two components to play music. We will apply the Logo to control the speaker to sing songs.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Test Code
+4. Test Code
 
 **Find code blocks:**
 
@@ -1355,7 +1381,8 @@ Connect the board to your computer via micro USB cable.
 
 ![img](img/k134.png)
 
-#### 5. Test Result
+5. Test Result
+
 After uploading test code to micro:bit main board and powering the board via the USB cable, the speaker plays *Birthday Song* when the logo is touched.
 
 
@@ -1364,22 +1391,23 @@ After uploading test code to micro:bit main board and powering the board via the
 
 ### Project 13: Dodge Bullets
 
-#### 1. Introduction
+1. Introduction
 
 We have learned about the two programmable buttons: button A and B. In this project, we will combine them with LED dot matrix to design a game: Dodge Bullets.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png) |
 | --------------------- | ------------------ |
 | Micro USB cable*1     | ![img](img/z2.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Game 1
+4. Game 1
 
 Dodge bullets! Don't get hit!
 
@@ -1425,11 +1453,12 @@ Dodge bullets! Don't get hit!
 
 ![img](img/k144.png)
 
-#### 6. Test Result 1
+6. Test Result 1
+
 The game begins when the code is uploaded to the main board. The bullets fall off and we need to control the role G by Button A and B to shun them. If the role fail to avert the attacks, game is over.
 
+7. Game 2
 
-#### 7. Game 2
 Dodge bullets! Earn points!
 
 Get one point for dodging one bullet; Game over when the role G is hit by bullet and the points will be output. Press A and B together, restart the game.
@@ -1492,7 +1521,8 @@ Get one point for dodging one bullet; Game over when the role G is hit by bullet
 
 ![img](img/k158.png)
 
-#### 8.  Test Result 2
+8. Test Result 2
+
 The game begins when the code is uploaded to the main board. The bullets fall off and we control the role G by Button A and B to shun them. 1 score will be tallied for each successful dodging. If the role fail to avert the attacks, the game is over and gained scores displays.
 
 Press buttons A and B at the same time, and the game starts again.
@@ -1504,7 +1534,7 @@ Press buttons A and B at the same time, and the game starts again.
 
 ![img](img/k159.png)
 
-#### 1. Introduction
+1. Introduction
 
 The Micro:bit main board comes with a nRF52833 processor with a built-in BLE(Bluetooth Low Energy) Bluetooth 5.1 device and a 2.4GHz antenna for Bluetooth wireless communication, so that the board is able to communicate with a variety of Bluetooth devices, including smart phones and tablets.
 
@@ -1512,23 +1542,24 @@ In this project, we mainly concentrate on the Bluetooth wireless communication t
 
 Since setting up Android phones to achieve wireless transmission is similar to that of Apple devices, no need to illustrate again.
 
-#### 2. Components
+2. Components
 
 | Micro:bit mainboard*1 | ![img](img/z1.png)   |
 | --------------------- | -------------------- |
 | Micro USB cable*1     | ![img](img/z2.png)   |
 | smart phone/IPad*1    | ![img](img/k160.png) |
 
-#### 3. Connection
+3. Connection
+
 Connect the board to your computer via micro USB cable.
 
 ![img](img/z3.png)
 
-#### 4. Procedures
+4. Procedures
 
 We will demonstrate on iPhone/iPad/MAC devices. Android/Windows devices may take these as a referance.
 
-##### (1) Firmware (iOS/MAC only)
+(1) Firmware (iOS/MAC only)
 
 iOS/MAC: <https://www.microbit.org/get-started/user-guide/ble-ios/>
 
@@ -1544,13 +1575,13 @@ Click “Download pairing HEX file” to download the Micro: Bit firmware and up
 
 ![img](img/k163.png)
 
-##### (2) Micro:bit APP
+(2) Micro:bit APP
 
 Open App Store![img](img/k164.png) and search “micro bit” and click “![img](img/k165.png)” to download the APP.
 
 ![img](img/k166.png)
 
-##### (3) Connection
+(3) Connection
 
 Connect your Apple device with Micro: Bit main board.
 
@@ -1588,7 +1619,7 @@ Connect your Apple device with Micro: Bit main board.
 
   - After the match with Bluetooth, write and upload code with the App.
 
-##### (4) Create Code
+(4) Create Code
 
 Click “Create Code” to enter the programming page and write code.
 
