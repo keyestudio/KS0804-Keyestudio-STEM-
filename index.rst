@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: KS0804
+   :caption: KS0804 Keyestudio STEM Programming DIY Colorful Lamp
 
    README.md
    docs/index
