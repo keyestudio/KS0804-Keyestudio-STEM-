@@ -292,7 +292,7 @@ Follow the tutorial to unfold the square paper in the kit
 
 [Microbit](Microbit/MakeCode/code.zip)
 
-[ESP32](ESP32/Code/code.zip)
+<!--[ESP32](ESP32/Code/code.zip)-->
 
 **1.Basic Projects**
 
@@ -314,7 +314,7 @@ Do operations according to the tutorials of the two development boards.
 
 **2.2 ESP32 Easy Coding Board Tutorial**
 
-[ESP32](ESP32/ESP32.md)
+<!--[ESP32](ESP32/ESP32.md)-->
 
 ------
 
