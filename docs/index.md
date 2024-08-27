@@ -302,7 +302,7 @@ Basic projects include development board introduction, programming methods, the 
 
 [Basic Courses: Microbit](Microbit/Basic_Courses.md)
 
-[Basic Courses: ESP32 Easy Coding Board](ESP32/Basic_Courses.md)
+<!--[Basic Courses: ESP32 Easy Coding Board](ESP32/Basic_Courses.md)-->
 
 **2.Colorful Lamp Projects**
 
