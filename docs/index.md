@@ -22,7 +22,7 @@ Welcome to check out more contents from our official website:
 
    [Microbit](Microbit/MakeCode/code.zip)
 
-   [ESP32](ESP32/Code/code.zip)
+   <!--[ESP32](ESP32/Code/code.zip)-->
 
 2. If something is found missing or broken, or you have some difficulty learning the kit, please feel free to contact us. Welcome to send email to us: [service@keyestudio.com](http://m.138.gz.cn/webadmin/~CAmsnCrrNXhTAySKCerrIfWjjZuuWVfI/~/usr/mod_edituser.jsp?;uid=service@keyestudio.com;;clearCache=)
 
